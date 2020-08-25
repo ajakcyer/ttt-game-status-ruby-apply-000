@@ -19,6 +19,8 @@ WIN_COMBINATIONS = [
   def won?(board)
     WIN_COMBINATIONS.find? do |wins|
       
+      if position_taken(board, index)
+        
     end
   end
   
