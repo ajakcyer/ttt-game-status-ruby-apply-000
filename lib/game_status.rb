@@ -33,5 +33,7 @@ WIN_COMBINATIONS = [
     end
   end
   
-  def draw?()
+  def draw?(board)
+    
+  end
   
