@@ -21,7 +21,8 @@ WIN_COMBINATIONS = [
       wins.all? do |combos|
         if index = combos
           position_taken?(board, index)
-        end
+        else wins.none? do |combos|
+          
       end
     end
   end
