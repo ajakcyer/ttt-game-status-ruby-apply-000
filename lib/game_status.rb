@@ -29,8 +29,7 @@ WIN_COMBINATIONS = [
   
   def full?(board)
     board.all? do |element|
-      if 
-      board[element] == "X" || board[element] == "O"
+      element == "X" || element == "O"
     end
   end
   
