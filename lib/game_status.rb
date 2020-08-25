@@ -24,13 +24,6 @@ WIN_COMBINATIONS = [
         return wins
       end
     end
+    false
   end
   
-  # def won?(board)
-  #   WIN_COMBINATIONS.find do |wins|
-  #     if wins.all? do |combos|
-  #       position_taken?(board, index)
-  #       end
-  #     end
-  #   end
-  # end
