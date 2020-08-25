@@ -20,7 +20,8 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.find do |wins|
       wins.all? do |combos|
         index = combos
-        position_taken?(board, index)
+        if position_taken?(board, index)
+          
       end
     end
   end
