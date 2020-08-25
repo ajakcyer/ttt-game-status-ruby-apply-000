@@ -17,15 +17,18 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    index = WIN_COMBINATIONS.all? do |wins|
-      position_taken(board, index)
-  end
-  
-  def won?(board)
-    WIN_COMBINATIONS.find do |wins|
-      if wins.all? do |combos|
-        position_taken?(board, index)
-        end
+    WIN_COMBINATIONS.all? do |wins|
+      if index = wins
+        position_taken(board, index)
       end
     end
   end
+  
+  # def won?(board)
+  #   WIN_COMBINATIONS.find do |wins|
+  #     if wins.all? do |combos|
+  #       position_taken?(board, index)
+  #       end
+  #     end
+  #   end
+  # end
