@@ -17,9 +17,9 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    WIN_COMBINATIONS.find? do |wins|
-      if index = wins
-        position_taken(board, index)
+    WIN_COMBINATIONS.each? do |wins|
+      if board[wins[0]] == "X" && board[wins[1]] == "X" && board[wins[2]] == "X"
+      
         
     end
   end
