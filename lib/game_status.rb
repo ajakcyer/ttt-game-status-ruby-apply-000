@@ -18,6 +18,8 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     WIN_COMBINATIONS.select do |wins|
-      
+      index = wins
+      if position_taken?(board, index)
+        
     end
   end
