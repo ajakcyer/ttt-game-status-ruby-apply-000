@@ -51,7 +51,7 @@ WIN_COMBINATIONS = [
         return "X"
       elsif board[wins[0]] == "O" && board[wins[1]] == "O" && board[wins[2]] == "O"
         return "O"
-      else !won?
+      else !won?(board)
         return nil
       end
     end
