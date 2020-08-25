@@ -17,7 +17,8 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    
+    index = WIN_COMBINATIONS.all? do |wins|
+      position_taken(board, index)
   end
   
   def won?(board)
