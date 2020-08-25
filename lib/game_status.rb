@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.select do |wins|
       wins.all? do |combos|
         index = combos
-        position_taken(board, index)
+        position_taken?(board, index)
       end
     end
   end
