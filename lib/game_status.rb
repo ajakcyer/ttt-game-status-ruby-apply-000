@@ -24,8 +24,10 @@ WIN_COMBINATIONS = [
         return wins
       end
     end
-    false
+      false
   end
   
-  
+  def full?
+    
+  end
   
