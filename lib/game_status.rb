@@ -18,5 +18,5 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     WIN_COMBINATIONS.select do |wins|
-      
+      wins.position_taken?(board, index)
   end
