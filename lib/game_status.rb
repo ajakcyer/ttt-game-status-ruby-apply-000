@@ -21,4 +21,6 @@ WIN_COMBINATIONS = [
       wins.all? do |combos|
         index = combos
         position_taken(board, index)
+      end
+    end
   end
