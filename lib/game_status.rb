@@ -55,4 +55,5 @@ WIN_COMBINATIONS = [
     end
     if !won?(board)
       return nil
+    end
   end 
